@@ -5,8 +5,10 @@ import About from '../components/About.jsx';
 import Gallery from '../components/Gallery.jsx';
 import Services from '../components/Services.jsx';
 import Testimonials from '../components/Testimonials.jsx';
+import Why from '../components/Why.jsx';
+import Qualified from '../components/Qualified.jsx';
 import Faq from '@/components/Faq.jsx';
-import Contact from '../components/Contact.jsx';
+// import Contact from '../components/Contact.jsx';
 
 
 
@@ -21,8 +23,10 @@ const HomePage = () => {
       <Gallery/>
       <Testimonials/>
       <About/>
+      <Why/>
+      <Qualified/>
       <Faq/>
-      <Contact/>
+      {/* <Contact/> */}
 
       
       

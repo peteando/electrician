@@ -13,20 +13,42 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <h2 className="text-3xl font-bold text-center mb-12">{site.testimonials.title}</h2>
+    // <section className="py-20 bg-white">
+    //   <h2 className="text-3xl font-bold text-center mb-12">{site.testimonials.title}</h2>
 
-      <div className="max-w-4xl mx-auto px-6 space-y-6">
-        {site.testimonials.items.map((t, i) => (
-          <div
-            key={i}
-            className="p-6 bg-green-50 rounded-xl shadow text-center"
-          >
-            <p className="text-gray-800 mb-3 italic">"{t.quote}"</p>
-            <span className="font-semibold text-green-700">{t.name}</span>
-          </div>
-        ))}
+    //   <div className="max-w-4xl mx-auto px-6 space-y-6">
+    //     {site.testimonials.items.map((t, i) => (
+    //       <div
+    //         key={i}
+    //         className="p-6 bg-green-50 rounded-xl shadow text-center"
+    //       >
+    //         <p className="text-gray-800 mb-3 italic">"{t.quote}"</p>
+    //         <span className="font-semibold text-green-700">{t.name}</span>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </section>
+    <section className="py-20 bg-white">
+  <h2 className="text-3xl font-bold text-center mb-12">
+    {site.testimonials.title}
+  </h2>
+
+  <div className="max-w-7xl mx-auto px-6 grid gap-6
+                  grid-cols-1
+                  sm:grid-cols-2
+                  md:grid-cols-3
+                  lg:grid-cols-5">
+    {site.testimonials.items.map((t, i) => (
+      <div
+        key={i}
+        className="p-6 bg-gray-50 rounded-xl shadow text-center"
+      >
+        <p className="text-gray-800 mb-3 italic">"{t.quote}"</p>
+        <span className="font-semibold text-cyan-700">{t.name}</span>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
+
   );
 }

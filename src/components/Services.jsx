@@ -46,10 +46,10 @@ export default function Services() {
   return (
     <section className="py-20 bg-gray-50">
       <h2 className="text-3xl font-bold text-center mb-12">
-        {site.services.title}
+        Melbourne Electrical Services
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto px-6">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto px-6">
         {site.services.items.map((s, i) => {
           const Icon = icons[i % icons.length];
           return (

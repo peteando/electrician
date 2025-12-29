@@ -4,7 +4,7 @@ export const site = {
   brand: {
     name: "Sparkies Electrical",
     tagline: "Fast, tidy, reliable electricians",
-    logoText: "Sparkies", // or omit if using an image logo
+    logoText: "Northside Electrical", // or omit if using an image logo
   },
 
   nav: [
@@ -113,25 +113,61 @@ export const site = {
 },
 
   testimonials: {
-    title: "What Our Clients Say",
-    items: [
-      {
-        name: "Jess, Brunswick",
-        quote:
-          "On time, explained everything clearly, and left the place spotless. Highly recommend.",
-      },
-      {
-        name: "Tom, South Yarra",
-        quote:
-          "Quick quote, fair price, and the work was super tidy. Will use again.",
-      },
-      {
-        name: "Aisha, St Kilda",
-        quote:
-          "Found the fault fast and fixed it the same day. Really professional.",
-      },
-    ],
-  },
+  title: "What Our Clients Say",
+  items: [
+    {
+      name: "Jess, Brunswick",
+      quote:
+        "On time, explained everything clearly, and left the place spotless. Highly recommend.",
+    },
+    {
+      name: "Tom, South Yarra",
+      quote:
+        "Quick quote, fair price, and the work was super tidy. Will use again.",
+    },
+    {
+      name: "Aisha, St Kilda",
+      quote:
+        "Found the fault fast and fixed it the same day. Really professional.",
+    },
+    {
+      name: "Mark, Coburg",
+      quote:
+        "Showed up when they said they would and got the job done properly. No shortcuts.",
+    },
+    {
+      name: "Emily, Fitzroy",
+      quote:
+        "Clear pricing, friendly service, and everything works perfectly now.",
+    },
+    {
+      name: "Daniel, Northcote",
+      quote:
+        "Explained the options without pushing anything. Really appreciated that.",
+    },
+    {
+      name: "Sarah, Carlton",
+      quote:
+        "Neat work, good communication, and no mess left behind.",
+    },
+    {
+      name: "Liam, Richmond",
+      quote:
+        "Booked in quickly and fixed an issue others couldn’t. Solid experience.",
+    },
+    {
+      name: "Priya, Hawthorn",
+      quote:
+        "Professional from start to finish. Would recommend to friends.",
+    },
+    {
+      name: "Chris, Footscray",
+      quote:
+        "Good advice, fair price, and the job was done right the first time.",
+    },
+  ],
+},
+
 
   cta: {
     title: "Need an electrician this week?",

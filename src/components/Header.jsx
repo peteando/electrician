@@ -118,16 +118,24 @@ export default function Header() {
   const showDropdown = () => setDropdown(!dropdown);
 
   return (
+    <header>
+      <div className="h-8 bg-cyan-950">
+        <div className="container mx-auto lg:px-3 w-full grid grid-cols-3 items-center">
+  <span className="text-left text-white text-sm">Need electrical work in a hurry</span>
+  <span className="text-center text-white text-sm">70+ five star reviews</span>
+  <span className="text-right text-white text-sm">Mon-Sunday 24/7 Emergency Services</span>
+</div>
+      </div>
     <nav className="w-full h-24 flex flex-col justify-center items-center sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto lg:px-3 w-full">
         <div className="lg:w-full w-11/12 mx-auto h-full flex justify-between items-center">
           
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-4xl font-bold text-lime-900 ml-2">
+            <span className="text-4xl font-bold text-cyan-900 ml-2">
               {site.brand.logoText}
             </span>
-            <span className="text-4xl font-bold"> Site</span>
+            {/* <span className="text-4xl font-bold"> Site</span> */}
           </div>
 
           {/* Navigation Links */}
@@ -177,5 +185,6 @@ export default function Header() {
         )}
       </div>
     </nav>
+    </header>
   );
 }

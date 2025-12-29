@@ -54,22 +54,32 @@ function Hero() {
             <h2 className="text-2xl mt-4 text-white leading-snug">
               {site.hero.subtitle}
             </h2>
-            <a
-              href="#contact"
-              className="inline-block mt-6 bg-amber-400 hover:bg-[#cc0000] text-lime-900 font-semibold py-3 px-6 rounded shadow-md transition"
-            >
-              Apply Now
-            </a>
+            <div className="mt-6 flex flex-wrap gap-4">
+  <a
+    href="#contact"
+    className="inline-flex items-center justify-center rounded-full bg-amber-400 hover:bg-[#cc0000] text-lime-900 font-semibold py-3 px-6 shadow-md transition"
+  >
+    0412 345 678
+  </a>
+
+  <a
+    href="#contact"
+    className="inline-flex items-center justify-center rounded-full bg-white hover:bg-[#cc0000] text-lime-900 font-semibold py-3 px-6 shadow-md transition"
+  >
+    REQUEST A QUOTE
+  </a>
+</div>
+
           </div>
 
           {/* Right Column: Contact Form */}
           <div className="md:w-1/2 pl-10 flex justify-center">
             <form
               id="contact"
-              className="w-full max-w-md bg-white rounded-lg shadow-lg p-6 space-y-4"
+              className="w-full max-w-md bg-white rounded-lg shadow-lg pt-12 px-10 pb-6 space-y-10"
             >
-              <h3 className="text-2xl font-semibold text-green-800 mb-2">
-                Get a Quote
+              <h3 className="text-2xl text-center font-semibold text-cyan-800 mb-2">
+                Get a Free Quote
               </h3>
 
               <div>
@@ -116,7 +126,7 @@ function Hero() {
 
               <button
                 type="submit"
-                className="w-full bg-amber-400 hover:bg-[#cc0000] text-lime-900 font-semibold py-3 px-6 rounded shadow-md transition"
+                className="w-full bg-cyan-500 hover:bg-[#cc0000] text-white font-semibold py-3 px-6 rounded-full shadow-md transition"
               >
                 Send Message
               </button>

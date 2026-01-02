@@ -49,7 +49,7 @@ function Hero() {
           {/* Left Column */}
           <div className="md:w-1/2 text-left pr-10 mb-10 md:mb-0">
             <h1 className="text-6xl font-bold text-white mt-40 leading-tight">
-              {site.hero.title}
+              {/* {site.hero.title} */}deploy test
             </h1>
             <h2 className="text-2xl mt-4 text-white leading-snug">
               {site.hero.subtitle}
